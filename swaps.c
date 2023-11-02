@@ -1,28 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap_main.c                                   :+:      :+:    :+:   */
+/*   swaps.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bsoykan <bsoykan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/29 14:53:08 by bsoykan           #+#    #+#             */
-/*   Updated: 2023/11/01 17:00:37 by bsoykan          ###   ########.fr       */
+/*   Created: 2023/11/02 12:12:54 by bsoykan           #+#    #+#             */
+/*   Updated: 2023/11/02 12:13:55 by bsoykan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int main(int ac, char const **av)
-{
-	
-	t_stack *a;
-	t_stack *b;
-	
-	a = NULL;
-	b = NULL;
-
-	if(ac < 2 || (ac == 2 && av[1][0] == '\0'))
-		return 1;
-	
-
-}
+void swap(s_stack **Node, )

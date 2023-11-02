@@ -6,7 +6,7 @@
 /*   By: bsoykan <bsoykan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/29 18:23:04 by bsoykan           #+#    #+#             */
-/*   Updated: 2023/10/29 18:24:33 by bsoykan          ###   ########.fr       */
+/*   Updated: 2023/11/02 12:15:00 by bsoykan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ typedef struct s_stack
 	int	top;
 	int	size;
 }	t_stack;
+
+void swap(t_stack *a, t_stack *b);
 
 void sa(t_stack *a);
 void sb(t_stack *b);
