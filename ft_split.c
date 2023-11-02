@@ -27,6 +27,7 @@ int wlen(char ded, int lstop)
 
 
 char ft_split(const char **av, char dst)
+{
 	char **res;
 	char *str = av[1];
 	int i;
